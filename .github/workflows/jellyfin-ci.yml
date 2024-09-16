@@ -45,7 +45,7 @@ jobs:
       uses: github/codeql-action/analyze@v2
 
     - name: Build Docker image
-      run: docker build -t jellyfin-app -f "C:\Temp\devops-jellyfin-ci\Dockerfile" .
+      run: docker build -t jellyfin-app .
 
 
 
